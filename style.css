@@ -1,7 +1,6 @@
 .topnav {
-    background-color:#333;
-    width: 100%;
-    
+    background-color: #333;
+    overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
@@ -19,7 +18,12 @@
     background-color: #ddd;
     color: red;
   }
-
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #aa0404;
+    color: white;
+  }
 .topnav ul {
    display: inline-block;
    list-style: none;
@@ -35,16 +39,8 @@
     font-family: cursive
   }
 
-  /* is active */
-.topnav .active {
-  color:            #F8F8F8;
-  background-color: #ca1010;
-}
 
 
-
-  /* Footer */
-  
   footer{
     position: relative;
     bottom: 0;
@@ -138,3 +134,22 @@ float: left;
   margin-bottom: 20px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
